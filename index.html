@@ -24,21 +24,23 @@
 <body class="roboto">
     <header class="bg-[#FFFBF0] mb-12 py-20">
         <!-- Nav-section -->
-        <!-- <nav class="flex w-10/12 mx-auto justify-between">
-            <div>
-                <img src="icons/logo.png" alt="">
+       <nav class="flex w-10/12 max-w-7xl items-center mx-auto justify-between mb-14">
+            <img class="lg:w-72 md:w-60 w-48" src="icons/logo.png" alt="">
+            <div class="flex space-x-4 lg:space-x-14 md:space-x-10 sr-only sm:not-sr-only">
+                <h3 class="text-[#3C3C3C] font-medium">Home</h3>
+                <h3 class="text-[#3C3C3C] font-medium">Product</h3>
+                <h3 class="text-[#3C3C3C] font-medium">About us</h3>
+                <h3 class="text-[#3C3C3C] font-medium">Contact us</h3>
             </div>
-            <div class="flex">
-                <h3>Home</h3>
-                <h3>Product</h3>
-                <h3>About us</h3>
-                <h3>Contact us</h3>
-            </div>
-        </nav> -->
+            <div class="lg:hidden md:hidden"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              </div>
+        </nav>
         <!-- Banner-section -->
         <div class="lg:flex md:flex justify-center items-center w-10/12 max-w-7xl mx-auto lg:justify-between">
             <div class="space-y-4">
-                <h1 class="text-7xl font-bold bebas-neue"><span class="text-[#FABE4C]">Be the Penguins </span><span class="text-[#363958]">of Winter</span></h1>
+                <h1 class="text-7xl font-bold bebas-neue"><span class="text-[#FABE4C]">Be the Penguins <br></span><span class="text-[#363958]">of Winter</span></h1>
                 <p class="text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the printing 
                     and typesetting industry.</p>
                 <button class="flex items-center rounded-xl py-4 px-8 bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white font-medium"><img class="w-6" src="icons/shopping-cart 1.png" alt="">BUY NOW</button>
@@ -144,7 +146,27 @@
             </div>
           </section>
     </main>
-    <footer>
+    <footer class="bg-slate-700 py-20">
+        <div class="w-10/12 max-w-7xl mx-auto flex justify-around">
+            <div class="flex flex-col space-y-5">
+                <h3 class="font-bold text-2xl text-white">Service</h3>
+                <a class="text-slate-400 hover:text-black hover:font-extrabold" href="">Branding</a>
+                <a class="text-slate-400 hover:text-black hover:font-extrabold" href="">Design</a>
+                <a class="text-slate-400 hover:text-black hover:font-extrabold" href="">Marketing</a>
+            </div>
+            <div class="flex flex-col space-y-5">
+                <h3 class="font-bold text-2xl text-white">Company</h3>
+                <a class="text-slate-400 hover:text-black hover:font-extrabold" href="">About Us</a>
+                <a class="text-slate-400 hover:text-black hover:font-extrabold" href="">Contact</a>
+                <a class="text-slate-400 hover:text-black hover:font-extrabold" href="">Jobs</a>
+            </div>
+            <div class="flex flex-col space-y-5">
+                <h3 class="font-bold text-2xl text-white">Legal</h3>
+                <a class="text-slate-400 hover:text-black hover:font-extrabold" href="">Terms Of use</a>
+                <a class="text-slate-400 hover:text-black hover:font-extrabold" href=""> Privacy Policy</a>
+                <a class="text-slate-400 hover:text-black hover:font-extrabold" href="">Cookie Policy</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
